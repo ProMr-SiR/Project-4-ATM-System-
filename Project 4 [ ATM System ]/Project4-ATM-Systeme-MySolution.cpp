@@ -233,7 +233,7 @@ double ReadNormalWithdrow()
 
 bool isMultipileOf5(int NormalWithd)
 {
-    return NormalWithd % 5 == 0;
+    return NormalWithd % 5 != 0;
 }
 
 void ShowNormalWithdrawScreen()
